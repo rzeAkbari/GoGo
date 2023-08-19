@@ -1,4 +1,4 @@
-module github.com/rzeAkbari/GoGo/grpc/golang/order
+module github.com/rzeAkbari/GoGo/grpc/proto/golang/order
 
 go 1.19
 

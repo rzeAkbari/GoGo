@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+    h1 {
+      @apply text-2xl;
+    }
+    h2 {
+      @apply text-xl;
+    }
+    h3 {
+      @apply text-lg;
+    }
+
+  }
+  
+@font-face {
+    font-family: 'Oxygen-Regular';
+    src: url("./assets/font/Oxygen/Oxygen-Regular.ttf");
+}
+@font-face {
+    font-family: Oxygen-Bold;
+    src: url("./assets/font/Oxygen/Oxygen-Bold.ttf");
+}
+
+body{
+    font-family: 'Oxygen-Regular';
+}
